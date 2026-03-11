@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/DIPTY23/dog"
 )
 
@@ -15,4 +17,7 @@ func BigBark() string {
 }
 func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
+}
+func From11() {
+	fmt.Println("I'm from version 1.1.0")
 }
